@@ -94,7 +94,7 @@ function draw() {
     letters[i].draw();
   }
 
-  ribbon = ribbon + 0.1;
+  ribbon = ribbon + 0.05;
   path = path + .01;
   autoPathRibbon(ribbon, path);
 
